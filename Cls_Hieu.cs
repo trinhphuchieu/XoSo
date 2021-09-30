@@ -104,7 +104,7 @@ namespace XoSo_TrinhPhucHieu
             {
                 AddText(fs, s);
             }
-            now = DateTime.Now;
+            
 
 
         }

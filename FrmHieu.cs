@@ -426,6 +426,7 @@ namespace XoSo_TrinhPhucHieu
             }
             */
             Cls_Hieu.LuuThuMuc();
+            Cls_Hieu.now = DateTime.Now;
             cmbKQXS.Items.Clear();
             cmbKQXS.Items.AddRange(Cls_Hieu.giaiMaTen());
             Cls_Hieu.kt = true;
@@ -457,8 +458,17 @@ namespace XoSo_TrinhPhucHieu
         {
             ComboBox thuMuc = (ComboBox)sender;
             String duongDan = Cls_Hieu.giaiMaDuongDan(thuMuc.Text);
+
+            try
+            {
+                hienThiXoSo(duongDan);
+            }
+            catch 
+            {
+                MessageBox.Show("File của bạn bị lỗi");
+                return;
+            }
            
-            hienThiXoSo(duongDan);
             
             String[] s1 = giaiTriDoi(duongDan).Replace(" LÚC ","@").Split('@');
             thongTinVe.Text = "KẾT QUẢ XỔ SỐ "+s1[0]+" LÚC "+s1[1];
