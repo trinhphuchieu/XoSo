@@ -970,7 +970,8 @@ namespace XoSo_TrinhPhucHieu
                 cmbKQXS.Items.Clear();
                 cmbKQXS.Items.AddRange(Cls_Hieu.giaiMaTen());
                 cmbDaiQuay.SelectedIndex = 0;
-                lbTinhKhac.Text = "KẾT QUẢ SỐ XỐ " + cmbDaiQuay.SelectedItem.ToString().ToUpper();
+                lbTinhKhac.Text = "KẾT QUẢ XỐ XỐ " + cmbDaiQuay.SelectedItem.ToString().ToUpper();
+                thongTinVe.Text = "KẾT QUẢ XỔ SỔ ĐÀ NẴNG";
                 MessageBox.Show("Xóa thành công");
                     if (duongDan.Contains("DN"))
                     {
@@ -990,6 +991,7 @@ namespace XoSo_TrinhPhucHieu
                 {
                     MessageBox.Show("Lỗi Xóa");
                 }
+
             }
             if (res == DialogResult.Cancel)
             {
