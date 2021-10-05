@@ -208,7 +208,8 @@ namespace XoSo_TrinhPhucHieu
 
         private void btnbatDau_Click(object sender, EventArgs e)
         {
-           
+            Cls_Hieu.luuGiaTri.Clear();
+            Cls_Hieu.luuGiaTri2.Clear();
             if(Cls_Hieu.ktQuay == false)
             {
                 MessageBox.Show("Hệ Thống đang quay số", "Thông Báo");
