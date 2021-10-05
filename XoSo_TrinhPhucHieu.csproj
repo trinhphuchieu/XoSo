@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cls_Hieu.cs" />
+    <Compile Include="FrmDoSo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDoSo.Designer.cs">
+      <DependentUpon>FrmDoSo.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmHieu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -55,6 +61,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmDoSo.resx">
+      <DependentUpon>FrmDoSo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmHieu.resx">
       <DependentUpon>FrmHieu.cs</DependentUpon>
     </EmbeddedResource>

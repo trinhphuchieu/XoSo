@@ -8,3 +8,4 @@ F:\DAU-STUDY\laptrinhwindow\thuchanh\XoSo_TrinhPhucHieu\obj\Debug\XoSo_TrinhPhuc
 F:\DAU-STUDY\laptrinhwindow\thuchanh\XoSo_TrinhPhucHieu\obj\Debug\XoSo_TrinhPhucHieu.csproj.CoreCompileInputs.cache
 F:\DAU-STUDY\laptrinhwindow\thuchanh\XoSo_TrinhPhucHieu\obj\Debug\XoSo_TrinhPhucHieu.exe
 F:\DAU-STUDY\laptrinhwindow\thuchanh\XoSo_TrinhPhucHieu\obj\Debug\XoSo_TrinhPhucHieu.pdb
+F:\DAU-STUDY\laptrinhwindow\thuchanh\XoSo_TrinhPhucHieu\obj\Debug\XoSo_TrinhPhucHieu.FrmDoSo.resources
