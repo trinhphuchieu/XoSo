@@ -120,7 +120,6 @@ namespace XoSo_TrinhPhucHieu
             this.thongTinVe = new System.Windows.Forms.Label();
             this.btnLuuXoSo = new System.Windows.Forms.Button();
             this.cmbKQXS = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.tmrThoiGian = new System.Windows.Forms.Timer(this.components);
             this.label13 = new System.Windows.Forms.Label();
             this.cmbGio = new System.Windows.Forms.ComboBox();
@@ -133,6 +132,7 @@ namespace XoSo_TrinhPhucHieu
             this.cmbGia = new System.Windows.Forms.ComboBox();
             this.panel21 = new System.Windows.Forms.Panel();
             this.label14 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.nudNgauNhien)).BeginInit();
             this.panel10.SuspendLayout();
             this.panel20.SuspendLayout();
@@ -1240,7 +1240,7 @@ namespace XoSo_TrinhPhucHieu
             this.btnLuuXoSo.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.btnLuuXoSo.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
             this.btnLuuXoSo.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnLuuXoSo.Location = new System.Drawing.Point(1051, 8);
+            this.btnLuuXoSo.Location = new System.Drawing.Point(1056, 4);
             this.btnLuuXoSo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnLuuXoSo.Name = "btnLuuXoSo";
             this.btnLuuXoSo.Size = new System.Drawing.Size(149, 44);
@@ -1262,21 +1262,6 @@ namespace XoSo_TrinhPhucHieu
             this.cmbKQXS.Size = new System.Drawing.Size(383, 31);
             this.cmbKQXS.TabIndex = 19;
             this.cmbKQXS.SelectedIndexChanged += new System.EventHandler(this.cmbKQXS_SelectedIndexChanged);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(1206, 8);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(150, 44);
-            this.button1.TabIndex = 22;
-            this.button1.TabStop = false;
-            this.button1.Text = "Xóa Kết Quả";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // tmrThoiGian
             // 
@@ -1543,7 +1528,9 @@ namespace XoSo_TrinhPhucHieu
             // panel21
             // 
             this.panel21.BackColor = System.Drawing.SystemColors.Menu;
+            this.panel21.Controls.Add(this.button1);
             this.panel21.Controls.Add(this.label14);
+            this.panel21.Controls.Add(this.btnLuuXoSo);
             this.panel21.Location = new System.Drawing.Point(3, 3);
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(1358, 116);
@@ -1559,6 +1546,21 @@ namespace XoSo_TrinhPhucHieu
             this.label14.TabIndex = 42;
             this.label14.Text = "Giá Vé";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold);
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(1207, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(149, 44);
+            this.button1.TabIndex = 43;
+            this.button1.TabStop = false;
+            this.button1.Text = "Xóa Kết Quả";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FrmHieu
             // 
@@ -1580,11 +1582,9 @@ namespace XoSo_TrinhPhucHieu
             this.Controls.Add(this.dtpNgayGio);
             this.Controls.Add(this.lbTinhKhac);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel10);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.cmbKQXS);
-            this.Controls.Add(this.btnLuuXoSo);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.nudNgauNhien);
             this.Controls.Add(this.thongTinVe);
@@ -1720,7 +1720,6 @@ namespace XoSo_TrinhPhucHieu
         private System.Windows.Forms.Label thongTinVe;
         private System.Windows.Forms.Button btnLuuXoSo;
         private System.Windows.Forms.ComboBox cmbKQXS;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Timer tmrThoiGian;
         protected System.Windows.Forms.Label label13;
         private System.Windows.Forms.ComboBox cmbGio;
@@ -1734,6 +1733,7 @@ namespace XoSo_TrinhPhucHieu
         private System.Windows.Forms.ComboBox cmbGia;
         private System.Windows.Forms.Panel panel21;
         protected System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Button button1;
     }
 }
 

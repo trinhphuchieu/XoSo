@@ -68,7 +68,7 @@ namespace XoSo_TrinhPhucHieu
         private void btnTimKiem_Click(object sender, EventArgs e)
         {
 
-            if (txtTimKiem.Text.Length > 2 && txtTimKiem.Text.Length < 6)
+            if (txtTimKiem.Text.Length < 2 || txtTimKiem.Text.Length > 6)
             {
                 MessageBox.Show("Nhập Kết quả phải lớn hơn 2 và nhỏ hơn 6 !!", "Thông báo");
                 return;
@@ -178,7 +178,7 @@ namespace XoSo_TrinhPhucHieu
         // dò lưu
         private void btnDoKetQuaLuu_Click(object sender, EventArgs e)
         {
-            if (txtTimKiem.Text.Length > 2 && txtTimKiem.Text.Length < 6)
+            if (txtTimKiem.Text.Length < 2 || txtTimKiem.Text.Length > 6)
             {
                 MessageBox.Show("Nhập Kết quả phải lớn hơn 2  và nhỏ hớn 6 !!", "Thông báo");
                 return;

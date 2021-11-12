@@ -947,7 +947,8 @@ namespace XoSo_TrinhPhucHieu
             }
 
         }
-
+        //xóa file thư mục
+        
         private void button1_Click(object sender, EventArgs e)
         {
 
@@ -999,7 +1000,7 @@ namespace XoSo_TrinhPhucHieu
                 
             }
         }
-
+        
         private void tmrQuay2_Tick(object sender, EventArgs e)
         {
             var ngauNhien = new Random();
